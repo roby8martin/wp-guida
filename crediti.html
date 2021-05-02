@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Favicon and title -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Guida WordPress</title>
+
+    <!-- Halfmoon CSS -->
+    <link href="css/halfmoon-variables.min.css" rel="stylesheet" />
+    <link href="css/icon/all.min.css" rel="stylesheet">
+    <!--
+      Or,
+      Use the following (no variables, supports IE11):
+      <link href="css/halfmoon.min.css" rel="stylesheet" />
+    -->
+  </head>
+  <body class="dark-mode with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-theme-onload="true">
+    <!-- Modals start -->
+        
+    <!-- Modals end -->
+
+    <!-- Page wrapper start -->
+    <div class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom" data-sidebar-type="overlayed-sm-and-down">
+      
+      <!-- Sticky alerts (toasts), empty container -->
+      <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+      <div class="sticky-alerts"></div>
+
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <!-- Siderbar button -->
+        <div class="navbar-content">
+          <button id="toggle-sidebar-btn" class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+        <!-- Navbar brand -->
+        <a href="index.html" class="navbar-brand">
+          WordPress Guide
+        </a>
+        <!-- Navbar text -->
+        <span class="navbar-text ml-5"> <!-- ml-5 = margin-left: 0.5rem (5px) -->
+          <span class="badge text-monospace">v1.0</span> <!-- text-monospace = font-family shifted to monospace -->
+        </span>
+        <!-- Navbar nav -->
+        <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Guide</a>
+          </li>
+          <li class="nav-item active">
+            <a href="crediti.html" class="nav-link">Crediti</a>
+          </li>
+        </ul>
+        <div class="navbar-content ml-auto">
+          <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode()" aria-label="Toggle dark mode">
+              <i class="far fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+
+      <!-- Sidebar overlay -->
+      <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+
+       <!-- Sidebar start -->
+       <div class="sidebar">
+        <div class="sidebar-menu">
+          <h5 class="sidebar-title">Crediti</h5>
+          <div class="sidebar-divider"></div>
+          <a href="crediti.html" class="sidebar-link active sidebar-link-with-icon">
+            <span class="sidebar-icon bg-dark text-white rounded-circle"> 
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            Licenza Halfmoon (MIT)
+          </a>
+          <a href="crediti-font-awesome.html" class="sidebar-link sidebar-link-with-icon">
+            <span class="sidebar-icon bg-dark text-white rounded-circle"> 
+              <i class="fab fa-font-awesome" aria-hidden="true"></i>
+            </span>
+            Licenza Font Awesome (MIT)
+          </a>
+        </div>
+      </div>
+      <!-- Sidebar end -->
+
+      <!-- Content wrapper start -->
+      <div class="content-wrapper">
+        <!-- Container-fluid -->
+        <div class="container-fluid">
+          <!-- First comes a content container with the main title -->
+          <div class="content">
+            <h1 class="mt-10 mb-10 font-weight-medium">
+              License <a href="https://www.gethalfmoon.com/license/" target="_blank" class="hyperlink">Halfmoon</a>
+            </h1>
+            <div class="font-size-20">
+              <span class="text-muted">Last updated: 01-07-2020</span><br>
+              Software used for: website template
+            </div>
+            <p><a href="https://www.gethalfmoon.com/team/" target="_blank" class="hyperlink">Halfmoon UI</a> is the name of the team behind the Halfmoon framework, responsible for its updates, maintenance, and documentation.</p>
+            <div class="p-20 text-monospace bg-light bg-dark-dm rounded font-size-12">
+              <p>
+                The MIT License
+              </p>
+              <p>
+                  © Copyright 2021, Halfmoon UI
+              </p>
+              <p>
+                  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+              </p>
+              <p>
+                  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+              </p>
+              <p>
+                  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+              </p>
+            </div>
+            <p>Please note, the copyright notice found in the files must <b>also</b> be included when the files are used.</p>
+            <a href="license/LICENSE-halfmoon" target="_blank" class="hyperlink">Original file License</a>
+          </div>
+        </div>
+      </div>
+      <!-- Content wrapper end -->
+
+      <!-- Navbar fixed bottom start -->
+      <nav class="navbar navbar-fixed-bottom">
+        <span class="navbar-text ml-auto"> <!-- ml-auto = margin-left: auto -->
+           &copy;<script>document.write(new Date().getFullYear())</script> Roby8martin for I.RI.GEM.
+        </span>
+      </nav>
+      <!-- Navbar fixed bottom end -->
+    </div>
+    <!-- Page wrapper end -->
+
+    <!-- Halfmoon JS -->
+    <script src="js/halfmoon.min.js"></script>
+  </body>
+</html>

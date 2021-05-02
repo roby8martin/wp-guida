@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Favicon and title -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Guida WordPress</title>
+
+    <!-- Halfmoon CSS -->
+    <link href="css/halfmoon-variables.min.css" rel="stylesheet" />
+    <link href="css/icon/all.min.css" rel="stylesheet">
+    <!--
+      Or,
+      Use the following (no variables, supports IE11):
+      <link href="css/halfmoon.min.css" rel="stylesheet" />
+    -->
+  </head>
+  <body class="dark-mode with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-theme-onload="true">
+    <!-- Modals start -->
+        
+    <!-- Modals end -->
+
+    <!-- Page wrapper start -->
+    <div class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom" data-sidebar-type="overlayed-sm-and-down">
+      
+      <!-- Sticky alerts (toasts), empty container -->
+      <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+      <div class="sticky-alerts"></div>
+
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <!-- Siderbar button -->
+        <div class="navbar-content">
+          <button id="toggle-sidebar-btn" class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+        <!-- Navbar brand -->
+        <a href="index.html" class="navbar-brand">
+          WordPress Guide
+        </a>
+        <!-- Navbar text -->
+        <span class="navbar-text ml-5"> <!-- ml-5 = margin-left: 0.5rem (5px) -->
+          <span class="badge text-monospace">v1.0</span> <!-- text-monospace = font-family shifted to monospace -->
+        </span>
+        <!-- Navbar nav -->
+        <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Guide</a>
+          </li>
+          <li class="nav-item active">
+            <a href="crediti.html" class="nav-link">Crediti</a>
+          </li>
+        </ul>
+        <div class="navbar-content ml-auto">
+          <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode()" aria-label="Toggle dark mode">
+              <i class="far fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+
+      <!-- Sidebar overlay -->
+      <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+
+       <!-- Sidebar start -->
+       <div class="sidebar">
+        <div class="sidebar-menu">
+          <h5 class="sidebar-title">Crediti</h5>
+          <div class="sidebar-divider"></div>
+          <a href="crediti.html" class="sidebar-link sidebar-link-with-icon">
+            <span class="sidebar-icon bg-dark text-white rounded-circle"> 
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            Licenza Halfmoon (MIT)
+          </a>
+          <a href="crediti-font-awesome.html" class="sidebar-link active sidebar-link-with-icon">
+            <span class="sidebar-icon bg-dark text-white rounded-circle"> 
+              <i class="fab fa-font-awesome" aria-hidden="true"></i>
+            </span>
+            Licenza Font Awesome (GPL)
+          </a>
+        </div>
+      </div>
+      <!-- Sidebar end -->
+
+      <!-- Content wrapper start -->
+      <div class="content-wrapper">
+        <!-- Container-fluid -->
+        <div class="container-fluid">
+          <!-- First comes a content container with the main title -->
+          <div class="content">
+            <h1 class="mt-10 mb-10 font-weight-medium">
+              License <a href="https://fontawesome.com/license/free" target="_blank" class="hyperlink">Font Awesome</a> <i class="fab fa-font-awesome"></i>
+            </h1>
+            <div class="font-size-20">
+              <span class="text-muted">Last updated on July 12, 2018</span><br>
+              Software used for: website icons
+            </div>
+            <br>
+            <div class="p-20 text-monospace bg-light bg-dark-dm rounded font-size-12">
+              <p>
+                Font Awesome Free License<br>
+                -------------------------<br>
+                Font Awesome Free is free, open source, and GPL friendly. You can use it for commercial projects, open source projects, or really almost whatever you want. Full Font Awesome Free license: https://fontawesome.com/license/free. <br><br>
+                # Icons: CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/) In the Font Awesome Free download, the CC BY 4.0 license applies to all icons packaged as SVG and JS file types.<br><br>
+                # Fonts: SIL OFL 1.1 License (https://scripts.sil.org/OFL) In the Font Awesome Free download, the SIL OFL license applies to all icons packaged as web and desktop font files. <br><br>
+                # Code: MIT License (https://opensource.org/licenses/MIT) In the Font Awesome Free download, the MIT license applies to all non-font andnon-icon files.<br><br>
+                # Attribution<br>
+                Attribution is required by MIT, SIL OFL, and CC BY licenses. Downloaded Font Awesome Free files already contain embedded comments with sufficient attribution, so you shouldn't need to do anything additional when using these files normally.<br><br>
+                We've kept attribution comments terse, so we ask that you do not actively work to remove them from files, especially code. They're a great way for folks to learn about Font Awesome. <br><br>
+                # Brand Icons<br>
+                All brand icons are trademarks of their respective owners. The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa. **Please do not use brand logos for any purpose except to represent the company, product, or service to which they refer.**<br><br>
+              </p>
+            </div>
+            <br>
+            <a href="license/LICENSE.txt" target="_blank" class="hyperlink">Original file License</a>
+          </div>
+        </div>
+      </div>
+      <!-- Content wrapper end -->
+
+      <!-- Navbar fixed bottom start -->
+      <nav class="navbar navbar-fixed-bottom">
+        <span class="navbar-text ml-auto"> <!-- ml-auto = margin-left: auto -->
+           &copy;<script>document.write(new Date().getFullYear())</script> Roby8martin for I.RI.GEM.
+        </span>
+      </nav>
+      <!-- Navbar fixed bottom end -->
+    </div>
+    <!-- Page wrapper end -->
+
+    <!-- Halfmoon JS -->
+    <script src="js/halfmoon.min.js"></script>
+  </body>
+</html>

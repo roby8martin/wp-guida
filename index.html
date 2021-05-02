@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Favicon and title -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Guida WordPress</title>
+
+    <!-- Halfmoon CSS -->
+    <link href="css/halfmoon-variables.min.css" rel="stylesheet" />
+    <link href="css/icon/all.min.css" rel="stylesheet">
+    <!--
+      Or,
+      Use the following (no variables, supports IE11):
+      <link href="css/halfmoon.min.css" rel="stylesheet" />
+    -->
+  </head>
+  <body class="dark-mode with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-theme-onload="true">
+    <!-- Modals start -->
+    <div class="modal modal-full ie-scroll-fix" id="unzip" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <br>
+                <h2 class="mt-10 mb-10 font-weight-medium">
+                  Unzippare / Scompattare il file xampp.zip
+                </h2>
+                <br>
+                <div class="text-center">
+                    <img src="img/guida/unzip.png" width="8000" class="img-fluid rounded" alt="unzip">
+                </div>
+                <div class="text-right mt-20">
+                  <a href="#" class="btn btn-danger" role="button">Chiudi</a>
+                </div>
+                <div class="font-size-18">
+                  <br><br><br><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-full ie-scroll-fix" id="setup-xampp" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <br>
+                <h2 class="mt-10 mb-10 font-weight-medium">
+                  Eseguire il file setup_xampp.bat
+                </h2>
+                <br>
+                <div class="text-center">
+                    <img src="img/guida/setup-xampp.png" width="8000" class="img-fluid rounded" alt="setup-xampp">
+                </div>
+                <div class="text-right mt-20">
+                  <a href="#" class="btn btn-danger" role="button">Chiudi</a>
+                </div>
+                <div class="font-size-18">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-full ie-scroll-fix" id="setup-xampp-avvio" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <br>
+                <h2 class="mt-10 mb-10 font-weight-medium">
+                  Avviare il setup premendo il tasto <b>1</b> poi <b>invio</b>
+                </h2>
+                <br>
+                <div class="text-center">
+                    <img src="img/guida/setup-xampp-avvio.png" width="8000" class="img-fluid rounded" alt="setup-xampp-avvio">
+                </div>
+                <div class="text-right mt-20">
+                  <a href="#" class="btn btn-danger" role="button">Chiudi</a>
+                </div>
+                <div class="font-size-18">
+                  <br><br><br><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-full ie-scroll-fix" id="setup-xampp-fine" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <br>
+                <h2 class="mt-10 mb-10 font-weight-medium">
+                  Avviare il setup premendo il tasto <b>1</b> poi <b>invio</b>
+                </h2>
+                <br>
+                <div class="text-center">
+                    <img src="img/guida/setup-xampp-fine.png" width="8000" class="img-fluid rounded" alt="setup-xampp-fine">
+                </div>
+                <div class="text-right mt-20">
+                  <a href="#" class="btn btn-danger" role="button">Chiudi</a>
+                </div>
+                <div class="font-size-18">
+                  <br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-full ie-scroll-fix" id="xampp-control" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <br>
+                <h2 class="mt-10 mb-10 font-weight-medium">
+                  Eseguire il file xampp-control.exe
+                </h2>
+                <br>
+                <div class="text-center">
+                    <img src="img/guida/xampp-control.png" width="8000" class="img-fluid rounded" alt="xampp-control">
+                </div>
+                <div class="text-right mt-20">
+                  <a href="#" class="btn btn-danger" role="button">Chiudi</a>
+                </div>
+                <div class="font-size-18">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-full ie-scroll-fix" id="xampp-control-avvio" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <br>
+                <h2 class="mt-10 mb-10 font-weight-medium">
+                  Avvia i servizi Apache e MySQL
+                </h2>
+                <br>
+                <div class="text-center">
+                    <img src="img/guida/xampp-control-avvio.png" width="8000" class="img-fluid rounded" alt="xampp-control-avvio">
+                </div>
+                <div class="text-right mt-20">
+                  <a href="#" class="btn btn-danger" role="button">Chiudi</a>
+                </div>
+                <div class="font-size-18">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-full ie-scroll-fix" id="wp-admin" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <br>
+                <h2 class="mt-10 mb-10 font-weight-medium">
+                  Accedi al pannello di WordPress
+                </h2>
+                <br>
+                <div class="text-center">
+                    <img src="img/guida/wp-admin.png" width="550" class="img-fluid rounded" alt="wp-admin">
+                </div>
+                <div class="text-right mt-20">
+                  <a href="#" class="btn btn-danger" role="button">Chiudi</a>
+                </div>
+                <div class="font-size-18">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modals end -->
+
+    <!-- Page wrapper start -->
+    <div class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom" data-sidebar-type="overlayed-sm-and-down">
+      
+      <!-- Sticky alerts (toasts), empty container -->
+      <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+      <div class="sticky-alerts"></div>
+
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <!-- Siderbar button -->
+        <div class="navbar-content">
+          <button id="toggle-sidebar-btn" class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+        <!-- Navbar brand -->
+        <a href="index.html" class="navbar-brand">
+          WordPress Guide
+        </a>
+        <!-- Navbar text -->
+        <span class="navbar-text ml-5"> <!-- ml-5 = margin-left: 0.5rem (5px) -->
+          <span class="badge text-monospace">v1.0</span> <!-- text-monospace = font-family shifted to monospace -->
+        </span>
+        <!-- Navbar nav -->
+        <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Guide</a>
+          </li>
+          <li class="nav-item">
+            <a href="crediti.html" class="nav-link">Crediti</a>
+          </li>
+        </ul>
+        <div class="navbar-content ml-auto">
+          <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode()" aria-label="Toggle dark mode">
+              <i class="far fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+
+      <!-- Sidebar overlay -->
+      <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+
+       <!-- Sidebar start -->
+       <div class="sidebar">
+        <div class="sidebar-menu">
+          <h5 class="sidebar-title">Guida laboratorio</h5>
+          <div class="sidebar-divider"></div>
+          <a href="index.html" class="sidebar-link active sidebar-link-with-icon">
+            <span class="sidebar-icon bg-success text-white rounded-circle"> 
+              <i class="fas fa-play" aria-hidden="true"></i>
+            </span>
+            Attivazione WordPress
+          </a>
+          <a href="fine.html" class="sidebar-link sidebar-link-with-icon">
+            <span class="sidebar-icon bg-danger text-light rounded-circle">
+              <i class="fas fa-stop" aria-hidden="true"></i>
+            </span>
+            A fine lezione
+          </a>
+          <a href="ricarica.html" class="sidebar-link sidebar-link-with-icon">
+            <span class="sidebar-icon bg-primary text-light rounded-circle"> 
+              <i class="fas fa-history" aria-hidden="true"></i>
+            </span>
+            La lezione successiva
+          </a>
+          <h5 class="sidebar-title">Guida Altervista / Pantheon</h5>
+          <div class="sidebar-divider"></div>
+          <a href="website.html" class="sidebar-link sidebar-link-with-icon">
+            <span class="sidebar-icon bg-secondary text-white rounded-circle"> 
+              <i class="fas fa-globe" aria-hidden="true"></i>
+            </span>
+            Attivazione hosting online
+          </a>
+          <a href="plugin-install.html" class="sidebar-link sidebar-link-with-icon">
+            <span class="sidebar-icon bg-primary text-white rounded-circle"> 
+              <i class="fas fa-download" aria-hidden="true"></i>
+            </span>
+            Installazione plugin backup
+          </a>
+          <a href="plugin-amplia.html" class="sidebar-link sidebar-link-with-icon">
+            <span class="sidebar-icon bg-success text-white rounded-circle"> 
+              <i class="fas fa-database" aria-hidden="true"></i>
+            </span>
+            Amplia lo spazio del plugin
+          </a>
+        </div>
+      </div>
+      <!-- Sidebar end -->
+
+      <!-- Content wrapper start -->
+      <div class="content-wrapper">
+        <!-- Container-fluid -->
+        <div class="container-fluid">
+          <!-- First comes a content container with the main title -->
+          <div class="content">
+            <h1 class="content-title font-size-22">
+              Come attivare WordPress in laboratorio
+            </h1>
+            <ol>
+              <li>Scaricare dal NAS del professore il file <b>xampp.zip</b> e salvalo nel desktop. <br>
+                Oppure <a href="" target="_blank" class="hyperlink">clicca qui</a> per scaricarlo nella cartella download del computer (mi raccomando di spostarlo nel desktop). </li>
+              <li>Unzippare (scompattare / estrarre) il file <b>xampp.zip</b> sul desktop. <a href="#unzip" class="badge badge-primary badge-pill" role="button"><i class="fas fa-image"></i></a></li>
+              <li>Alla fine dell'estrazione del file aprire <b>la "cartella" Xampp</b> e trovare il file <b>setup_xampp.bat</b> <a href="#setup-xampp" class="badge badge-primary badge-pill" role="button"><i class="fas fa-image"></i></a></li>
+              <li>Eseguire il file facendo doppio click e confermare  l'avviso <b>premendo il tasto 1</b> e <b>invio</b>. <a href="#setup-xampp-avvio" class="badge badge-primary badge-pill" role="button"><i class="fas fa-image"></i></a><br> 
+                Attendere che il programma finisce la configurazione.</li>
+              <li>Quando la configurazione finisce appare una scritta: <br> <code class="code">Premere un tasto per continuare . . .</code> <a href="#setup-xampp-fine" class="badge badge-primary badge-pill" role="button"><i class="fas fa-image"></i></a><br>
+                Cliccare un qualsiasi tasto della tastiera per chiudere la finestra.</li>
+              <li>Tornare nella <b>"cartella" Xampp</b> ed eseguire il file <b>xampp-control.exe</b> <a href="#xampp-control" class="badge badge-primary badge-pill" role="button"><i class="fas fa-image"></i></a></li>
+              <li>Avviare i servizi <b>Apache</b> e <b>MySQL</b>. <a href="#xampp-control-avvio" class="badge badge-primary badge-pill" role="button"><i class="fas fa-image"></i></a></li>
+              <li>Aprire un browser (esempio <b>Google Chrome</b>) ed andare sulla pagina locale di WordPress usando questo indirizzo.</li>
+              <h5><a href="http://localhost:8081/wp-admin/" target="_blank" class="hyperlink">http://localhost:8081/wp-admin/</a></h5>
+              <li>Per accedere al pannello di WordPress inserire: <a href="#wp-admin" class="badge badge-primary badge-pill" role="button"><i class="fas fa-image"></i></a></li>
+              <h5>Nome utente: <b>admin</b> <br> Password: <b>Biscottino44</b> </h5> 
+            </ol>
+          </div>
+        </div>
+      </div>
+      <!-- Content wrapper end -->
+
+      <!-- Navbar fixed bottom start -->
+      <nav class="navbar navbar-fixed-bottom">
+        <span class="navbar-text ml-auto"> <!-- ml-auto = margin-left: auto -->
+           &copy;<script>document.write(new Date().getFullYear())</script> Roby8martin for I.RI.GEM.
+        </span>
+      </nav>
+      <!-- Navbar fixed bottom end -->
+    </div>
+    <!-- Page wrapper end -->
+
+    <!-- Halfmoon JS -->
+    <script src="js/halfmoon.min.js"></script>
+  </body>
+</html>
